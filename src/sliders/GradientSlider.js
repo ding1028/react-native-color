@@ -26,6 +26,7 @@ const GradientSlider = ({
         onValueChange={onValueChange}
         minimumTrackTintColor="transparent"
         maximumTrackTintColor="transparent"
+        trackStyle={styles.track}
         thumbStyle={[styles.thumb, { backgroundColor: thumbTintColor }]}
       />
     </View>
@@ -41,10 +42,15 @@ const styles = StyleSheet.create({
     alignItems: 'stretch',
     height: 32
   },
+  track: {
+
+  },
   thumb: {
     width: 24,
     height: 24,
     borderRadius: 24 / 2,
+    borderColor: 'white',
+    borderWidth: 1,
     shadowColor: 'black',
     shadowOffset: { width: 0, height: 2 },
     shadowRadius: 4,
@@ -55,6 +61,9 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     height: 6,
+    borderRadius: 3,
+    borderWidth: 1,
+    borderColor : 'white'
   },
 });
 
