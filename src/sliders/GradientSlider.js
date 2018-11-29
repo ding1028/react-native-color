@@ -43,14 +43,14 @@ const styles = StyleSheet.create({
     height: 32
   },
   track: {
-
+    borderRadius: 8,
   },
   thumb: {
-    width: 24,
-    height: 24,
-    borderRadius: 24 / 2,
+    width: 44,
+    height: 44,
+    borderRadius: 44 / 2,
     borderColor: 'white',
-    borderWidth: 1,
+    borderWidth: 2,
     shadowColor: 'black',
     shadowOffset: { width: 0, height: 2 },
     shadowRadius: 4,
@@ -60,10 +60,11 @@ const styles = StyleSheet.create({
     position: 'absolute',
     left: 0,
     right: 0,
-    height: 6,
-    borderRadius: 3,
-    borderWidth: 1,
-    borderColor : 'white'
+    height: 16,
+    borderRadius: 8,
+    borderWidth: 2,
+    borderColor : 'rgba(255,255,255,1)',
+    overflow: 'hidden'
   },
 });
 
