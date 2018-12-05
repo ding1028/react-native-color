@@ -40,15 +40,15 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'stretch',
-    height: 32
+    height: 50
   },
   track: {
     borderRadius: 8,
   },
   thumb: {
-    width: 44,
-    height: 44,
-    borderRadius: 44 / 2,
+    width: 40,
+    height: 40,
+    borderRadius: 40 / 2,
     borderColor: 'white',
     borderWidth: 2,
     shadowColor: 'black',
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     height: 16,
     borderRadius: 8,
     borderWidth: 2,
-    borderColor : 'rgba(255,255,255,1)',
+    borderColor : '#707070',
     overflow: 'hidden'
   },
 });
